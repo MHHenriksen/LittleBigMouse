@@ -5,6 +5,7 @@ on:
     branches: [ Net5 ]
   pull_request:
     branches: [ Net5 ]
+  workflow_dispatch:
 
 jobs:
   build:
